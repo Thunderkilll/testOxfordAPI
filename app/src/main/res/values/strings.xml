@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">testOxfordAPI</string>
+    <string name="imagedesc">testLogo</string>
+    <string name="button_desc">testOxfordAPI</string>
+    <string name="place_your_word">place your word</string>
+    <string name="offline">you are offline </string>
+    <string name="ofliner">ofliner</string>
+
+</resources>

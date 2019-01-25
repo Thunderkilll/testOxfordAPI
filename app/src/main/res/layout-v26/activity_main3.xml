@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="305dp"
+        android:layout_height="636dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/warrior"
+        android:contentDescription="@string/imagedesc" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="231dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="394dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:hint="@string/place_your_word"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorHint="@android:color/background_light"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:autofillHints="" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="196dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:srcCompat="@drawable/sub_btn"
+        android:contentDescription="@string/button_desc"
+        />
+
+</android.support.constraint.ConstraintLayout>
